@@ -88,7 +88,7 @@
       "post": {
         "tags": ["User"],
         "summary": "Create a new user",
-        "description": "Create a new user that is not Admin",
+        "description": "Create a new user that is not `admin`",
         "requestBody": {
           "content": {
             "application/json": {
@@ -214,8 +214,8 @@
     "/users/{user_id}/admin": {
       "patch": {
         "tags": ["User"],
-        "summary": "Turns a user into admin",
-        "description": "Turns a user into admin",
+        "summary": "Turns an user into admin",
+        "description": "Turns an user into `admin`",
         "parameters": [
           {
             "in": "path",
